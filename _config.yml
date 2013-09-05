@@ -1,6 +1,7 @@
+foo: bar
+
 project:
   title: Hubert Wong
   tagline: generic tagline ho.
 
-paginate: 10
 permalink: pretty
