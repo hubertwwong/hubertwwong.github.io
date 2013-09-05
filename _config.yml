@@ -1,5 +1,6 @@
-project_title: Hubert Wong
-project_tag_line: generic tagline ho.
+project:
+  title: Hubert Wong
+  tagline: generic tagline ho.
 
 paginate: 10
 permalink: pretty
