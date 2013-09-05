@@ -1,5 +1,6 @@
 foo: bar
 
+site: http://hubertwwong.github.io
 project:
   title: Hubert Wong
   tagline: generic tagline ho.
