@@ -1,6 +1,5 @@
-title: "Hubert Wong awesome title"
-tag_line: "generic tagline ho."
+main_title: "Hubert Wong awesome title"
+main_tag_line: "generic tagline ho."
 
 paginate: 10
-
 permalink: pretty
