@@ -4,26 +4,24 @@
 	{% include header.html %}
   	
   	<body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/hubertwwong">View on GitHub</a>
-
-          <h1 id="project_title">{{ site.project.title }}</h1>
-          <h2 id="project_tagline">{{ site.project.tagline }}</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-    	{% include recent_posts.html %}
-      <section id="main_content" class="inner">
-		{{ content }}
-      </section>
-    </div>
-
+  	
+  	<div class="page-header">
+        <h1>{{ site.project.title }}</h1>
+        <p class="lead">{{ site.project.tag_line }}</p>
+    </div>	
+	
+    <div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<h3>{{ page.title }}</h3>
+				{{ content }}
+			</div>
+			<div class="col-md-4">
+				{% include sidebar.html %}
+			</div>
+		</div>
+	</div>
+	
 	{% include footer.html %}
   	
   	</body>
