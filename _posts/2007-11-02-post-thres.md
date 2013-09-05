@@ -4,7 +4,7 @@ layout: blog
 title: title 3
 
 category: temp
-subtitle: zzzzz
+subtitle: some awesome subtitle
 tags: testing
 ---
 
