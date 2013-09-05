@@ -1,7 +1,9 @@
 ---
 layout: blog
-category: temp
+
 title: title 3
+
+category: temp
 subtitle: zzzzz
 tags: testing
 ---

@@ -1,21 +1,18 @@
-<!DOCTYPE html>
-<html>	
-	{% include header.html %}
-	
-  	<body>
-	  	{% include body_title.html %}	
-		
-	    <div class="container">
-			<div class="row">
-				<div class="col-md-8">
-					{{ content }}
-				</div>
-				<div class="col-md-4">
-					{% include sidebar.html %}
-				</div>
-			</div>
+---
+layout: base_layout
+---
+<!-- 
+	use this for the main blog page.
+	take away the page title and lets the sub layouts handle it. 
+-->
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			{{ content }}
 		</div>
-		
-		{% include footer.html %}
-  	</body>
-</html>
+		<div class="col-md-4">
+			{% include sidebar.html %}
+		</div>
+	</div>
+</div>
+	

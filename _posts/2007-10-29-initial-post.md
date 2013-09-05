@@ -1,7 +1,9 @@
 ---
 layout: blog
-category: temp
+
 title: title1
+
+category: temp
 subtitle: does this actually work.
 tags: testing
 ---

@@ -2,4 +2,4 @@
 title: main page
 layout: blog_lists
 ---
-{% include body_blogs.html %}
+{% include post_list.html %}
