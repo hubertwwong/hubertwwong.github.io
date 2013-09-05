@@ -5,24 +5,21 @@
   	
   	<body>
   	
-  	<div class="page-header">
-        <h1>{{ site.project.title }}</h1>
-        <p class="lead">{{ site.project.tagline }}</p>
-    </div>	
+  		{% include body_title.html %}
 	
-    <div class="container">
-		<div class="row">
-			<div class="col-md-8">
-				<h3>{{ page.title }}</h3>
-				{{ content }}
-			</div>
-			<div class="col-md-4">
-				{% include sidebar.html %}
+	    <div class="container">
+			<div class="row">
+				<div class="col-md-8">
+					<h3>{{ page.title }}</h3>
+					{{ content }}
+				</div>
+				<div class="col-md-4">
+					{% include sidebar.html %}
+				</div>
 			</div>
 		</div>
-	</div>
 	
-	{% include footer.html %}
+		{% include footer.html %}
   	
   	</body>
 </html>
