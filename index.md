@@ -1,4 +1,10 @@
+---
+title: Hello, World!
+---
+
 # Hello World
+
+foobar
 
 Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. \
 Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, pl\
