@@ -1,14 +1,12 @@
 ---
 title: Hello World!!!!
-layout: default
+layout: blog
 ---
-a
 <ul>
   {% for post in site.posts %}
-    <li>
+    <h6>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      <p>{{ post.excerpt }}</p>
-    </li>
+    </h6>
+    <p>{{ post.excerpt }}</p>
   {% endfor %}
 </ul>
-a
