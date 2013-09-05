@@ -1,10 +1,15 @@
 ---
-title: Hello World!!!!
+title: main page
 layout: blog_lists
 ---
 {% for post in site.posts %}
-<h3>
+<h2>
 	<a href="{{ post.url }}">{{ post.title }}</a>
-</h3>
-<p>{{ post.excerpt }}</p>
+</h2>
+<p class="text-right text-primary">
+	{{ post.date | date: "%b %d, %Y" }}
+</p>
+<p>
+	{{ post.excerpt }}
+</p>
 {% endfor %}
