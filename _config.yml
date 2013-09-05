@@ -1,8 +1,6 @@
 name: "Hubert Wong"
 description: "tagline this and that"
 
-url: "http://hubertwwong.github.io"
-
 paginate: 10
 
 permalink: pretty
