@@ -1,9 +1,20 @@
+/* spacer to pull down jumbotron at the top so it is below the top tool bar */
 .spacer_jumbotron_top {
-    margin-top: 80px; /* define margin as you see fit */
+    margin-top: 80px;
+}
+
+/* spacer to get the side bar to line up with the first post item */
+.spacer_top_sidebar {
+    padding-top: 25px;
+}
+
+/* generic spacers. */
+.spacer_top {
+    padding-top: 40px;
 }
 
 .spacer_bottom {
-    padding-bottom: 40px; /* define margin as you see fit */
+    padding-bottom: 40px;
 }
 
 .top_nav_pic {
@@ -25,5 +36,17 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.red_color {
+	color: red;
+}
+
+.post_title_color {
+	color: red;
+}
+
+.post_subtitle_color {
+	color: #777777;
 }

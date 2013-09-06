@@ -9,7 +9,11 @@ layout: base_layout
 <div class="container">
 	<div class="row">
 		<div class="col-md-8">
-			<h3>{{ page.title }}</h3>
+			<h3 class="post_title_color">{{ page.title }}</h3>
+			<h4 class="post_subtitle_color">{{ page.title }}</h4>
+			<p class="text-muted text-right">
+				{{ page.date | date: "%b %d, %Y" }}
+			</p>
 			{{ content }}
 		</div>
 		<div class="col-md-4">
