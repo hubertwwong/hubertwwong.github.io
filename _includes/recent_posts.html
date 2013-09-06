@@ -1,3 +1,7 @@
+<!-- 
+	returns the 5 most recent posts titles.
+	adds links too. store results in a side bar. 
+-->
 <ul>
   {% for post in site.posts limit: 5 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
