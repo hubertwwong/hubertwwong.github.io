@@ -12,3 +12,18 @@
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
+
+/* font override for serif fonts */
+body,
+input,
+button,
+select,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
