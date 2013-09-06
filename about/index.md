@@ -1,6 +1,7 @@
 ---
 title: About
-layout: blog
+layout: page
 ---
 
-about the page
+about the page.
+something something something awesome. really.

@@ -1,0 +1,18 @@
+---
+layout: base_layout
+---
+<!-- 
+	use this for free standing pages.
+	like the about section.
+-->
+<div class="container">
+	<div class="row">
+		<div class="col-md-8">
+			<h3 class="post_title_color">{{ page.title }}</h3>
+			{{ content }}
+		</div>
+		<div class="col-md-4">
+			{% include sidebar.html %}
+		</div>
+	</div>
+</div>
