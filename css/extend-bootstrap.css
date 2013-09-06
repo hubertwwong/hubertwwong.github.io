@@ -1,3 +1,9 @@
 .spacer_bottom {
     padding-bottom: 40px; /* define margin as you see fit */
 }
+
+.top_nav_pic {
+	background: url('/images/site/top_nav.jpg');
+	z-index:100;
+	width: 100%;
+}  
