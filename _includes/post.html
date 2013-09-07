@@ -1,16 +1,18 @@
-<h3>
-	<a href="{{ post.url }}" class="post_title_color">{{ post.title }}</a>
-</h3>
-<h4 class="post_subtitle_color">
-	{{ post.subtitle }}
-</h4>
-<p class="text-muted text-right">
-	{{ post.date | date: "%b %d, %Y" }}
-</p>
-<p>
-	{{ post.excerpt }}
-</p>
-<p class="text-muted text-right">
-	Filed under:
-	{{ post.categories | category_links }}
-</p>
+<div class="container">
+	<h3>
+		<a href="{{ post.url }}" class="post_title_color">{{ post.title }}</a>
+	</h3>
+	<h4 class="post_subtitle_color">
+		{{ post.subtitle }}
+	</h4>
+	<p class="text-muted text-right">
+		{{ post.date | date: "%b %d, %Y" }}
+		:: 
+		{{ post.categories | category_links }}
+	</p>
+</div>
+<div class="container">
+	<p>
+		{{ post.excerpt }}
+	</p>
+</div>
